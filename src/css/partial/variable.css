@@ -1,0 +1,17 @@
+:root {
+    --primary-font-family: 'Poppins';
+
+    --heading-one-fontSize: 5rem;
+    --heading-two-fontSize: 3.5rem;
+    --heading-three-fontSize: 2.5rem;
+    --para-fontSize: 2.1rem;
+
+    --brand-color: #0E0B0B;
+    --highlight-color: #A41F13;
+    --black-color: #000000;
+    --secondary-black-color: #292F36;
+    --pure-white: #ffffff;
+    --primary-bg-color: #FAF5F1;
+    --secondary-bg-color: #7E8893;
+    --brand-bg-color: #F7F7F7;
+}

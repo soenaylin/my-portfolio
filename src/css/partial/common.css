@@ -1,0 +1,14 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.brand-color {
+  color: var(--brand-color);
+}
+
+/* @media (max-width: 1260px) {
+    .container {
+        margin: 0 4rem;
+    }
+} */

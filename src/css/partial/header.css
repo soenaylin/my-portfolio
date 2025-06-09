@@ -1,0 +1,144 @@
+.welcome {
+    position: relative;
+    background-color: var(--brand-bg-color);
+}
+
+.welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 137px;
+}
+
+/* .welcome-img img {
+  width: 96rem;
+  height: 88.796rem;
+} */
+
+/* .welcome-img img {
+    width: 100%;
+    height: auto;
+} */
+
+.welcome-text {
+    /* padding-top: 23.6rem;
+    padding-left: 36rem; */
+    padding-bottom: 176px;
+
+    padding-top: 216px;
+    padding-left: 150px;
+}
+
+.welcome-text .ui-ux-text {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.welcome-text h1 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.welcome-text .my-name {
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.welcome-text .my-bio {
+    font-size: 21px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    width: 470px;
+}
+
+.welcome-text .download-button {
+    display: block;
+    width: 240px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 18px;
+    color: var(--black-color);
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--secondary-bg-color);
+    transition: all 0.3s;
+}
+
+.welcome-text .download-button:hover {
+    background-color: var(--brand-color);
+    color: var(--pure-white);
+}
+
+.welcome-section-floating-social-links {
+    position: absolute;
+    top: 250px;
+    right: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.welcome-section-floating-social-links p {
+    color: var(--pure-white);
+    font-size: 16px;
+    rotate: -90deg;
+    display: block;
+    margin-bottom: 42px;
+}
+
+.welcome-section-floating-social-links .social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 2.8rem; */
+}
+
+@media (max-width: 1668px) {
+    .welcome-img {
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 1260px) {
+    .welcome-section {
+        height: auto;
+    }
+
+    .welcome-text {
+        padding-bottom: 176px;
+    }
+
+    /* .welcome-text::before {
+    content: "<div>";
+  } */
+}
+
+@media (max-width: 1160px) {
+    .welcome-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome-img {
+        padding-top: 0 !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .welcome-section .welcome-text {
+        padding-left: 70px !important;
+    }
+}
+
+/* @media (min-width: 1520px  max-width: 1570px) {
+    .welcome-img img {
+      width: 85rem;
+      height: 78.622rem;
+    }
+  } */
