@@ -1,7 +1,7 @@
 export default function DownloadCvButton() {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "/public/SoeNayLin's_CV_V1.0.pdf"; // path relative to the public folder
+        link.href = "/SoeNayLin's_CV_V1.0.pdf"; // path relative to the public folder
         link.download = "SoeNayLin's_CV_V1.0.pdf";
         document.body.appendChild(link);
         link.click();
