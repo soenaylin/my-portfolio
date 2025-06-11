@@ -44,7 +44,7 @@ export default function Welcome() {
 						</Box>
 						{/* <DownloadCvButton /> */}
 						<a
-							href="/SoeNayLin's_CV_V1.0.pdf"
+							href="/SoeNayLin's_CV_V1.1.0.pdf"
 							download
 							className="download-button">
 							Download CV
